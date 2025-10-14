@@ -110,7 +110,7 @@ export function RankingModal({ show, onClose, site }: RankingModalProps) {
             {/* Bonus Section - Green background with dark text */}
             <div className="p-6 bg-green-50 border-b-2 border-green-200">
               <div className="text-center">
-                <p className="font-bold mb-3 text-lg text-primary">Exclusive Welcome Bonus</p>
+                <p className="font-bold mb-3 text-lg text-primary">New Customer Bonus</p>
                 <div className="font-bold text-gray-900 text-xl sm:text-2xl leading-tight">
                   {site.modalBonus || site.bonus}
                 </div>

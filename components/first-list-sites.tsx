@@ -73,7 +73,7 @@ export const FirstListSites = () => {
                     {index === 0 && (
                       <div className="absolute top-0 left-0 z-10">
                         <div className="bg-yellow-400 text-black px-3 py-1 text-sm font-bold">
-                          Top Rated Sportsbook
+                          The best choice
                         </div>
                       </div>
                     )}
@@ -101,7 +101,7 @@ export const FirstListSites = () => {
 
                       <div className="flex flex-col justify-center w-1/2 px-4 py-4">
                         <div className="text-center mb-6">
-                          <div className="text-primary text-xs font-bold mb-3">Welcome Bonus</div>
+                          <div className="text-primary text-xs font-bold mb-3">New Customer Bonus</div>
                           <div className="font-bold text-black text-lg leading-tight">{site.bonus}</div>
                           {site.dopbonus && (
                             <div className="font-bold text-black text-base leading-tight mt-2">{site.dopbonus}</div>
@@ -131,7 +131,7 @@ export const FirstListSites = () => {
                       </div>
 
                       <div className="flex flex-col items-center justify-center w-56 flex-shrink-0">
-                        <div className="text-primary text-xs font-bold mb-1">Welcome Bonus</div>
+                        <div className="text-primary text-xs font-bold mb-1">New Customer Bonus</div>
                         <div className="text-center min-h-[48px] flex flex-col justify-center">
                           <div className="font-bold text-black text-lg leading-tight">{site.bonus}</div>
                           {site.dopbonus && (
@@ -175,7 +175,7 @@ export const FirstListSites = () => {
                       </div>
 
                       <div className="flex flex-col items-center justify-center w-80 flex-shrink-0">
-                        <div className="text-primary text-sm font-bold mb-2">Welcome Bonus</div>
+                        <div className="text-primary text-sm font-bold mb-2">New Customer Bonus</div>
                         <div className="text-center min-h-[70px] flex flex-col justify-center">
                           <div className="font-bold text-black xl:text-2xl text-3xl leading-tight">{site.bonus}</div>
                           {site.dopbonus && (
