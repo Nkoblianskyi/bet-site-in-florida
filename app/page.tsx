@@ -41,7 +41,7 @@ export default function HomePage() {
   if (!isClient) {
     return (
       <div className="flex flex-col justify-center items-center min-h-screen bg-white">
-        <div className="rounded-full h-32 w-32 border-b-2 border-primary animate-spin"></div>
+        <div className="rounded-full h-32 w-32 border-b-2 border-black animate-spin"></div>
       </div>
     )
   }
