@@ -81,7 +81,7 @@ export const FirstListSites = () => {
                     {/* Mobile Layout */}
                     <div className="flex md:hidden min-h-[160px]">
                       <div className="flex flex-col items-center justify-center bg-gray-50 w-1/2 py-4">
-                        <div className="bg-white p-2 shadow-sm w-40 h-20 flex items-center justify-center mb-4 border-2 border-gray-200">
+                        <div className="bg-black mt-4 p-2 shadow-sm w-40 h-20 flex items-center justify-center mb-4 border-2 border-gray-200">
                           <Image
                             src={site.logo || "/placeholder.svg"}
                             alt={site.name}
@@ -119,7 +119,7 @@ export const FirstListSites = () => {
                         <div className="bg-primary text-white w-10 h-10 flex items-center justify-center text-base font-bold flex-shrink-0">
                           {index + 1}
                         </div>
-                        <div className="bg-white p-2 shadow-sm w-40 h-20 flex items-center justify-center border-2 border-gray-200">
+                        <div className="bg-black p-2 shadow-sm w-40 h-20 flex items-center justify-center border-2 border-gray-200">
                           <Image
                             src={site.logo || "/placeholder.svg"}
                             alt={site.name}
@@ -163,7 +163,7 @@ export const FirstListSites = () => {
                         <div className="bg-primary text-white w-12 h-12 flex items-center justify-center text-lg font-bold flex-shrink-0">
                           {index + 1}
                         </div>
-                        <div className="bg-white p-2 shadow-sm w-64 h-24 xl:h-28 flex items-center justify-center flex-shrink-0 border-2 border-gray-200">
+                        <div className="bg-black p-2 shadow-sm w-64 h-24 xl:h-28 flex items-center justify-center flex-shrink-0 border-2 border-gray-200">
                           <Image
                             src={site.logo || "/placeholder.svg"}
                             alt={site.name}

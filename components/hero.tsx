@@ -14,7 +14,7 @@ export const Hero = ({ onOpenModal }: HeroProps) => {
   })
 
   return (
-    <section className="w-full relative overflow-hidden border-b-2 border-gray-300 max-h-[250px] md:max-h-[350px] pt-16">
+    <section className="w-full relative overflow-hidden border-b-2 border-gray-300 max-h-[250px] md:max-h-[350px] pt-14">
       <div
         className="absolute w-full inset-0 bg-cover bg-center bg-no-repeat md:hidden"
         style={{
@@ -30,7 +30,7 @@ export const Hero = ({ onOpenModal }: HeroProps) => {
       <div className="relative z-10 w-full max-w-[1280px] mx-auto px-4 py-4 md:py-8 h-full flex flex-col justify-center">
         {/* Main Hero Title */}
         <div className="text-center mb-3 md:mb-6">
-          <h1 className="text-xl md:text-3xl font-bold text-white mb-2">Sport in Florida</h1>
+          <h1 className="text-xl md:text-3xl font-bold text-white mb-2">Best betting sites in Florida</h1>
           <p className="text-sm md:text-lg text-white/90 max-w-3xl mx-auto">
             Discover Florida's Best Betting Site with Comprehensive Rankings
           </p>
@@ -45,7 +45,7 @@ export const Hero = ({ onOpenModal }: HeroProps) => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-4 max-w-4xl mx-auto mb-3 md:mb-4">
           <div className="flex items-center justify-center gap-1 md:gap-2 bg-white/10 backdrop-blur-sm rounded-lg py-1 px-2">
             <Image
-              src="/florida.jpg"
+              src="/flag-florida.png"
               width={16}
               height={16}
               alt="FL Logo"

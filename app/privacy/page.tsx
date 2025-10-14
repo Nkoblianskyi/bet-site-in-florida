@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-[#013220] mb-4">Introduction</h2>
               <p className="text-[#2C1810]">
-                Welcome to Sport in Florida (sportinflorida.com). We are committed to protecting your privacy and
+                Welcome to Sport in Florida (betsiteinflorida.com). We are committed to protecting your privacy and
                 ensuring the security of your personal information. This Privacy Policy explains how we collect, use,
                 disclose, and safeguard your information when you visit our website and use our services to find the
                 best sports betting options in Florida.
@@ -191,7 +191,7 @@ export default function PrivacyPolicy() {
                 <p>
                   <strong>Sport in Florida</strong>
                 </p>
-                <p>Website: sportinflorida.com</p>
+                <p>Website: betsiteinflorida.com</p>
                 <p>
                   For Florida residents: We are committed to addressing your privacy concerns promptly and in accordance
                   with Florida law.

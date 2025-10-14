@@ -13,7 +13,7 @@ export function Footer() {
               <div className="w-8 h-8 flex items-center justify-center">
                 <Image src="/favicon.ico" alt="Logo" width={32} height={32} />
               </div>
-              <h3 className="text-lg sm:text-xl font-semibold text-[#013220]">SportInFlorida</h3>
+              <h3 className="text-lg sm:text-xl font-semibold text-[#013220]">Bet Site in Florida</h3>
             </div>
             <p className="text-sm sm:text-base text-[#5A1A1A] mt-2">
               Your trusted source for betting site reviews and rankings in Florida.
@@ -43,14 +43,14 @@ export function Footer() {
           <h4 className="text-base sm:text-lg font-semibold mb-4 text-center text-[#013220]">Responsible Gambling</h4>
 
           {/* Florida Problem Gambling Helpline */}
-          <div className="bg-destructive text-white p-4 rounded-lg mb-6 text-center">
+          <div className=" text-black p-4 rounded-lg mb-6 text-center">
             <div className="flex items-center justify-center gap-2 mb-2">
               <Phone className="w-5 h-5" />
               <h5 className="font-semibold text-lg">Florida Problem Gambling Helpline</h5>
             </div>
-            <a href="tel:1-888-ADMIT-IT" className="text-2xl font-bold hover:underline">
+            <p className="text-2xl font-bold">
               1-888-ADMIT-IT (1-888-236-4848)
-            </a>
+            </p>
             <p className="text-sm mt-2">24/7 Confidential Support</p>
           </div>
 
@@ -72,7 +72,7 @@ export function Footer() {
               </Link>
             <Link
                 href="https://www.gambleaware.org/"
-                className="bg-muted p-2 sm:p-3 rounded text-center hover:bg-muted/80 transition-colors flex items-center justify-center"
+                className="p-2 sm:p-3 rounded text-center  transition-colors flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -86,7 +86,7 @@ export function Footer() {
               </Link>
               <Link
                 href="https://flgaming.gov/"
-                className="bg-muted p-2 sm:p-3 rounded text-center hover:bg-muted/80 transition-colors flex items-center justify-center"
+                className=" p-2 sm:p-3 rounded text-center transition-colors flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -101,7 +101,7 @@ export function Footer() {
               
               <Link
                 href="https://www.gamstop.co.uk/"
-                className="bg-muted p-2 sm:p-3 rounded text-center hover:bg-muted/80 transition-colors flex items-center justify-center"
+                className=" p-2 sm:p-3 rounded text-center transition-colors flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -116,7 +116,7 @@ export function Footer() {
               
               <Link
                 href="https://www.ncpgambling.org/"
-                className="bg-muted p-2 sm:p-3 rounded text-center hover:bg-muted/80 transition-colors flex items-center justify-center"
+                className=" p-2 sm:p-3 rounded text-center  transition-colors flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -130,7 +130,7 @@ export function Footer() {
               </Link>
               <Link
                 href="https://gamblinghelp.org/"
-                className="bg-muted p-2 sm:p-3 rounded text-center hover:bg-muted/80 transition-colors flex items-center justify-center"
+                className="p-2 sm:p-3 bg-black rounded text-center transition-colors flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -146,7 +146,7 @@ export function Footer() {
           </div>
 
           <div className="text-center">
-            <Badge className="bg-secondary text-secondary-foreground">21+</Badge>
+            <Badge className="bg-red-600 rounded-full text-white">21+</Badge>
           </div>
         </div>
 
@@ -157,7 +157,7 @@ export function Footer() {
             Bonuses and content are subject to change. Always review the terms on the bookmaker's official site before
             joining. 21+ only. New Florida Players only. T&Cs apply. Please Gamble Responsibly. GambleAware.org
           </p>
-          <p className="text-xs sm:text-sm">&copy; 2025 SportInFlorida.com. All rights reserved.</p>
+          <p className="text-xs sm:text-sm">&copy; 2025 betsiteinflorida.com. All rights reserved.</p>
         </div>
       </div>
     </footer>

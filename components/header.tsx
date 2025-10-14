@@ -12,7 +12,7 @@ export function Header() {
             </div>
             <Link href="/" className="hover:opacity-80 transition-opacity">
               <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-foreground">
-                Sport in <span className="text-primary">Florida</span>
+                Bet Site <span className="text-primary">in Florida</span>
               </h1>
             </Link>
           </div>

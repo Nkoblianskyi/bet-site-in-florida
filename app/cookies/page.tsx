@@ -27,7 +27,7 @@ export default function CookiePolicy() {
               <h2 className="text-2xl font-semibold text-[#013220] mb-4">What Are Cookies</h2>
               <p className="text-[#2C1810]">
                 Cookies are small text files that are placed on your computer or mobile device when you visit Sport in
-                Florida (sportinflorida.com). They help us provide you with a better experience by remembering your
+                Florida (betsiteinflorida.com). They help us provide you with a better experience by remembering your
                 preferences, analyzing how you use our site, and ensuring our betting recommendations are relevant to
                 Florida residents.
               </p>
