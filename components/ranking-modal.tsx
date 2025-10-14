@@ -83,52 +83,54 @@ export function RankingModal({ show, onClose, site }: RankingModalProps) {
           </div>
 
           <div className="bg-white">
-            {/* Logo Section - White background with dark border */}
-            <div className="p-6 border-b-2 border-gray-200 bg-black">
-              <div className="w-56 h-32 sm:w-64 sm:h-36 mx-auto flex items-center justify-center">
-                <Image
-                  src={site.logo || "/placeholder.svg"}
-                  alt={site.name}
-                  width={240}
-                  height={120}
-                  className="max-w-full max-h-full object-contain"
-                />
-              </div>
-            </div>
-
-            {/* Rating Section - Light gray background with dark text */}
-            <div className="p-6 bg-gray-50 border-b-2 border-gray-200">
-              <div className="text-center">
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <div className="flex gap-1">{renderStars(site.rating, "w-5 h-5 sm:w-6 sm:h-6")}</div>
-                  <span className="text-xl sm:text-2xl font-bold text-gray-900">{site.rating.toFixed(1)}</span>
-                </div>
-                <div className="text-sm text-gray-600">{site.reviewCount} verified reviews</div>
-              </div>
-            </div>
-
-            {/* Bonus Section - Green background with dark text */}
-            <div className="p-6 bg-green-50 border-b-2 border-green-200">
-              <div className="text-center">
-                <p className="font-bold mb-3 text-lg text-primary">New Customer Bonus</p>
-                <div className="font-bold text-gray-900 text-xl sm:text-2xl leading-tight">
-                  {site.modalBonus || site.bonus}
+            <Link href={site.url} target="_blank" rel="noopener referrer">
+              {/* Logo Section - White background with dark border */}
+              <div className="p-6 border-b-2 border-gray-200 bg-black">
+                <div className="w-56 h-32 sm:w-64 sm:h-36 mx-auto flex items-center justify-center">
+                  <Image
+                    src={site.logo || "/placeholder.svg"}
+                    alt={site.name}
+                    width={240}
+                    height={120}
+                    className="max-w-full max-h-full object-contain"
+                  />
                 </div>
               </div>
-            </div>
 
-            {/* CTA Section - White background */}
-            <div className="p-6 space-y-4">
-              <Link href={site.url} target="_blank" rel="noopener noreferrer" onClick={handleClose}>
+              {/* Rating Section - Light gray background with dark text */}
+              <div className="p-6 bg-gray-50 border-b-2 border-gray-200">
+                <div className="text-center">
+                  <div className="flex items-center justify-center gap-2 mb-2">
+                    <div className="flex gap-1">{renderStars(site.rating, "w-5 h-5 sm:w-6 sm:h-6")}</div>
+                    <span className="text-xl sm:text-2xl font-bold text-gray-900">{site.rating.toFixed(1)}</span>
+                  </div>
+                  <div className="text-sm text-gray-600">{site.reviewCount} verified reviews</div>
+                </div>
+              </div>
+
+              {/* Bonus Section - Green background with dark text */}
+              <div className="p-6 bg-green-50 border-b-2 border-green-200">
+                <div className="text-center">
+                  <p className="font-bold mb-3 text-lg text-primary">New Customer Bonus</p>
+                  <div className="font-bold text-gray-900 text-xl sm:text-2xl leading-tight">
+                    {site.modalBonus || site.bonus}
+                  </div>
+                </div>
+              </div>
+
+              {/* CTA Section - White background */}
+              <div className="p-6 space-y-4">
+
                 <Button className="bg-yellow-400 hover:bg-green-800 text-black px-8 py-6 text-lg sm:text-xl font-bold shadow-lg hover:shadow-xl w-full transition-all rounded-lg">
                   Claim Bonus Now →
                 </Button>
-              </Link>
 
-              <p className="text-[9px] sm:text-[10px] text-gray-800 max-w-md mx-auto leading-relaxed text-center font-medium">
-                21+ Florida residents only. Play responsibly. Terms and wagering conditions apply. GambleAware.org
-              </p>
-            </div>
+
+                <p className="text-[9px] sm:text-[10px] text-gray-800 max-w-md mx-auto leading-relaxed text-center font-medium">
+                  21+ Florida residents only. Play responsibly. Terms and wagering conditions apply. GambleAware.org
+                </p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

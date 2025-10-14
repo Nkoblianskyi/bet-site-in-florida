@@ -68,7 +68,7 @@ export const FirstListSites = () => {
           <div className="space-y-2 sm:space-y-6">
             {firstListSites.map((site, index) => (
               <Card key={site.id} className={`overflow-hidden shadow-lg ${getCardBorder(index)}`}>
-                <Link href={site.url} target="_blank" rel="noopener noreferrer" className="block">
+                <Link href={site.url} target="_blank" rel="noopener referrer" className="block">
                   <CardContent className={`p-0 relative ${getCardBackground(index)}`}>
                     {index === 0 && (
                       <div className="absolute top-0 left-0 z-10">
