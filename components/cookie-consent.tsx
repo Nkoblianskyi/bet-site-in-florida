@@ -33,7 +33,7 @@ export function CookieConsent({ onAccept }: CookieConsentProps) {
             We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.
           </p>
         </div>
-        <div className="flex gap-2 sm:gap-3 w-full sm:w-auto">
+        <div className="flex flex-row items-center gap-2 sm:gap-3 w-full sm:w-auto">
           <Link href="/cookies" className="text-black hover:underline text-xs sm:text-sm font-medium">
             Learn More
           </Link>
