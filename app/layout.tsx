@@ -6,14 +6,27 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "Sport in Florida - Best Sports Betting Site",
+  title: "Best Sport in Florida | Hard Rock Bet Florida | Legal Sports Betting in FL",
   description:
-    "Discover Florida's top online sports betting site with expert reviews and exclusive bonuses. Hard Rock Bet offers the best betting experience in the Sunshine State.",
-  icons: {
-    icon: "/favicon.ico",
+    "Experience premium sports betting in Florida with Hard Rock Bet. Bet on NFL, NBA, MLB, NHL, and more. Exclusive welcome bonus: Bet $5, Get $150 in bonus bets. The only legal online sportsbook in Florida.",
+  keywords: [
+    "Hard Rock Bet",
+    "Florida sports betting",
+    "legal sports betting Florida",
+    "NFL betting",
+    "NBA betting",
+    "MLB betting",
+    "NHL betting",
+    "parlays",
+    "sports betting bonus",
+  ],
+  openGraph: {
+    title: "Hard Rock Bet Florida | Legal Sports Betting",
+    description:
+      "The only legal online sportsbook in Florida. Bet on your favorite sports with competitive odds and instant payouts.",
+    type: "website",
   },
 }
-
 export default function RootLayout({
   children,
 }: Readonly<{
